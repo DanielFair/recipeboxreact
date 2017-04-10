@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  background-color: burlywood;
+  height: 1080px;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+#recipeTitle {
+  background-color: burlywood;
+  width: 95%;
+  border-style: solid;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: auto;
+  font-family: 'Almendra SC';
+  font-size: 28px;
+  padding: 3px;
+}
+
+#recipebox {
+  background-color: #F1E7CD;
+  border: 1px solid #e9d8af;
+  border-radius: 2px;
+  width: 45%;
+  min-width: 275px;
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+}
+
+#expandedIngredients {
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  border: 2px solid black;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  list-style-position: inside;
+  font-family: 'Aref Ruqaa';
+  font-size: 18px;
+}
+#expandedTitle {
+  font-size: 24px;
+  margin: 2px;
+  text-decoration: underline;
+}
+#expandedUL {
+    text-align: left;
+    font-family: 'Arima Madurai';
+    font-family: 'Aref Ruqaa';
+}
+.modal {
+  width: 35%;
+  min-width: 275px;
+  margin: auto;
+  font-family: 'Aref Ruqaa';
+}
+.modal-header {
+  height: 30%;
+  padding: 3px;
+  background-color: #F1E7CD;
+  background-color: burlywood;
+  border-bottom: 1px solid black;
+  font-size: 28px;
+}
+.modal-content {
+  background-color: #F1E7CD;
+  background-color: white;
+  margin: auto;
+}
+.modal-body{
+  width: 85%;
+  margin: auto;
+}
+.modal-footer{
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+.btn{
+  margin: 3px;
+  font-family: 'Aref Ruqaa';
+}
+.btn-addrecipe{
+  background-color: #ff9900;
+  color: white;
+  border: 1px solid #cc7a00;
+}
+.btn-addrecipe:hover{
+  background-color: #e68a00;
+  color: white;
+  border: 1px solid #cc7a00;
+}
+.btn-addrecipe:focus{
+  color: white;
+}
+.btn-edit{
+  background-color: #b36b00;
+  color: white;
+  border: 1px solid #663d00;
+}
+.btn-edit:hover{
+  background-color: #995c00;
+  color: white;
+  border: 1px solid #663d00;
+}
+.btn-edit:focus{
+  color: white;
+}
+.btn-delete{
+  background-color: #cc2900;
+  color: white;
+  border: 1px solid #801a00;
+}
+.btn-delete:hover{
+  background-color: #991f00;
+  color: white;
+  border: 1px solid #801a00;
+}
+.btn-delete:focus{
+  color: white;
+}
+#addNameInput{
+  width: 95%;
+  margin: auto;
+}
+#addIngredientsInput{
+  width: 95%;
+  margin: auto;
+}
+.nameId{
+  width: 95%;
+  margin: auto;
+}
+.ingredId{
+  width: 95%;
+  margin: auto;
+}
+.modal-btn{
+  width: auto;
+}
